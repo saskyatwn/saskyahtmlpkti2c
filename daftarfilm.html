@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daftar Film Minions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Chewy&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="style2.css" />
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      background-color: #fffbe7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffec3d;
+      color: #333;
+      font-family: 'Chewy', cursive;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 2rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    .film-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .film-card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .film-card:hover {
+      transform: translateY(-5px);
+    }
+    .film-card-content {
+      padding: 1rem;
+    }
+    .film-card-content h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 3rem;
+    }
+    .back-button {
+      background-color: #ffec3d;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: #333;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #ffe066;
+    }
+    footer {
+      text-align: center;
+      background-color: #f9f871;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    💛 Daftar Film Minions 💛
+  </header>
+
+  <main>
+    <h2 style="text-align: center;">Film-Film Populer Minions</h2>
+    <div class="film-grid">
+      <div class="film-card">
+        <img src="despicableme1.jpeg" alt="Despicable Me (2010)" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
+        <div class="film-card-content">
+          <h3>Despicable Me (2010)</h3>
+          <p>Perkenalan dengan Gru dan Minions yang lucu.</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <img src="despicableme2.jpeg" alt="Despicable Me 2 (2013)" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
+        <div class="film-card-content">
+          <h3>Despicable Me 2 (2013)</h3>
+          <p>Petualangan baru Gru dan para Minions dalam misi rahasia.</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <img src="minions2015.jpeg" alt="Minions (2015)" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
+        <div class="film-card-content">
+          <h3>Minions (2015)</h3>
+          <p>Kisah asal-usul Minions dan pencarian bos baru mereka.</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <img src="despicableme3.jpeg" alt="Despicable Me 3 (2017)" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
+        <div class="film-card-content">
+          <h3>Despicable Me 3 (2017)</h3>
+          <p>Gru menghadapi musuh baru dengan bantuan Minions.</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <img src="despicableme4.jpeg" alt="Despicable Me (2024)" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
+        <div class="film-card-content">
+          <h3>Despicable Me (2024)</h3>
+          <p>Cerita masa muda Gru dan Minions yang terus menghibur.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <a href="karakter.html" class="back-button">← Back</a>
+      <a href="index.html" class="back-button">Minions</a>
+      <a href="villains.html" class="back-button">Next →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Minion Fans Club | Stay silly and yellow! 🍌</p>
+  </footer>
+</body>
+</html>

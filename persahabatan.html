@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Persahabatan Minions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Chewy&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="style2.css" />
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      background-color: #fffbe7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffec3d;
+      color: #333;
+      font-family: 'Chewy', cursive;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 2rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .description {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 2rem auto;
+      font-size: 1rem;
+      color: #444;
+    }
+    .friendship-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .photo-card {
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .photo-card:hover {
+      transform: scale(1.03);
+    }
+    .photo-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2.5rem;
+    }
+    .back-button {
+      background-color: #ffec3d;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: #333;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #ffe066;
+    }
+    footer {
+      text-align: center;
+      background-color: #f9f871;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>💛 Persahabatan Minions 💛</header>
+
+  <main>
+    <section>
+      <h2>Persahabatan yang Solid</h2>
+      <p class="description">
+        Dalam setiap misi, kekacauan, dan petualangan, Minions selalu punya satu hal yang tak tergantikan: <strong>persahabatan sejati</strong>. 
+        Mereka tertawa bersama, gagal bersama, dan selalu saling dukung tak peduli seberapa aneh situasinya. 
+        Persahabatan mereka adalah kekuatan super yang membuat kisah Minions selalu hangat dan penuh tawa.
+      </p>
+
+      <div class="friendship-grid">
+        <div class="photo-card">
+          <img src="sahabat1.jpeg" alt="Minions Bersahabat 1">
+        </div>
+        <div class="photo-card">
+          <img src="sahabat2.jpeg" alt="Minions Bersahabat 2">
+        </div>
+        <div class="photo-card">
+          <img src="sahabat3.jpeg" alt="Minions Bersahabat 3">
+        </div>
+        <div class="photo-card">
+          <img src="sahabat4.jpeg" alt="Minions Bersahabat 4">
+        </div>
+        <div class="photo-card">
+          <img src="sahabat5.jpeg" alt="Minions Bersahabat 5">
+        </div>
+        <div class="photo-card">
+          <img src="sahabat6.jpeg" alt="Minions Bersahabat 6">
+        </div>
+      </div>
+
+      <div class="navigation">
+        <a href="senjata.html" class="back-button">← Back</a>
+        <a href="index.html" class="back-button">Minions</a>
+        <a href="petualangan.html" class="back-button">Next →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Minion Fans Club | Stay silly and yellow! 🍌</p>
+  </footer>
+</body>
+</html>
